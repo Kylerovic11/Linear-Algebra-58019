@@ -1,0 +1,158 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Kylerovic11/Linear-Algebra-58019/blob/main/Vector%20Operations\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "jfbk7e8sXx6h"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A = np.array([1,2,0])\n",
+        "B = np.array([3,1,-2])\n",
+        "C = np.array([0,0,1])\n",
+        "\n",
+        "A+B+C\n",
+        "\n",
+        "np.add(A,np.add(B,C))\n",
+        "\n",
+        "np.sum(B)\n"
+      ],
+      "metadata": {
+        "id": "izoSRbvDX-EX",
+        "outputId": "6a481944-5acf-4946-9a15-6f109e63ba8e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "2"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "np.subtract(A,B)\n",
+        "\n",
+        "A-B\n"
+      ],
+      "metadata": {
+        "id": "pw0NRNpQYBKZ",
+        "outputId": "aeca0ebe-a682-43cf-d58d-32a905b3ba67",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([-2,  1,  2])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 7
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "np.multiply(A,B)\n",
+        "\n",
+        "A*B\n"
+      ],
+      "metadata": {
+        "id": "8PcDQb-aYC8R",
+        "outputId": "4543c35c-f977-4bbd-94f9-d8b7253835db",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([3, 2, 0])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 8
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "np.divide(A,B)\n",
+        "\n",
+        "A/B\n",
+        "\n",
+        "C = np.array([3.9,1.8,7.7])\n",
+        "D = np.array([1,1,1])\n",
+        "C//D\n",
+        "\n",
+        "np.array(A/B,dtype=int)\n"
+      ],
+      "metadata": {
+        "id": "UcKZRClEYEoh",
+        "outputId": "c70ddb6c-3d3c-4246-a425-19226bdc7b81",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "array([0, 2, 0])"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 9
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
